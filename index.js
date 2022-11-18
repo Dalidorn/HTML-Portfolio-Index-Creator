@@ -35,7 +35,7 @@ inq.prompt([
 
 //splitting the links into an array
 let projectLinks = [];
-data.projectLinks.split("\ ").forEach(ele => projectLinks.push(ele));
+data.projectLinks.split(" ").forEach(ele => projectLinks.push(ele));
 
 //for each link make a card element
 let projectCards = [];
